@@ -14,7 +14,7 @@ export default function Home() {
     setError('');
     
     try {
-      const response = await axios.post('/api/generateImage', {
+      const response = await axios.post('/generateImage', {
         positivePrompt,
         negativePrompt
       });
