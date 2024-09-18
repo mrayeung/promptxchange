@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Image Generator</h1>
+
+    <label for="positivePrompt">Positive Prompt:</label><br>
+    <textarea id="positivePrompt" name="positivePrompt"></textarea><br>
+
+    <label for="negativePrompt">Negative Prompt:</label><br>
+    <textarea id="negativePrompt" name="negativePrompt"></textarea><br>
+
+    <button onclick="generateImage()">Generate Image</button>
+
+    <div id="imageContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
